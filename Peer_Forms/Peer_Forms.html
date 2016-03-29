@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8"</meta>
+<script src="jquery-2.2.2.min.js"></script>
+<script src="app.js"></script>
+<title>Fancy From</title>
+</head>
+
+<body>
+
+<div id="mainForm">
+<form action "/login" method="post" id="myForm">
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" id="firstName"/>
+    <br>
+    <label for="lastName">Last Name</label>
+    <input type="text" name="lastName" id="lastName"/>
+    <br>
+    <label for="empNumber">Employee Number</label>
+    <input type="number" name="empNumber" id="empNumber"/>
+    <br>
+    <label for="title">Title</label>
+    <input type="text" name="title" id="title"/>
+    <br>
+    <label for="reviewScore">Review Score</label>
+    <input type="number" name="empReviewScore" id="empReviewScore" min="1" max="5"/>
+    <br>
+    <label for="salary">Salary</label>
+    <input type="number" name="empSalary" id="empSalary"/>
+
+    <input type="submit" name="Send Info" id="formSubmit"/>
+
+</form>
+</div>
+<div id="formData">
+</div>
+
+</body>
+
+
+</html>
